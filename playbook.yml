@@ -1,0 +1,5 @@
+---
+- hosts: ec2-3-135-238-15.us-east-2.compute.amazonaws.com
+  become: true
+  roles:
+    - jenkins
